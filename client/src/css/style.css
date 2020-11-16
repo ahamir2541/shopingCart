@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body,
+#root {
+   padding: 0;
+   margin: 0;
+   height: 100vh;
+}
+.navbar{
+    background-color: black;
+    color: #ffffff;
+}
+.productContainer{
+    width: 95%;
+    margin: 0 auto;
+}
+.productImag{
+    height: 250px;
+}
+.productPanel{
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+.cartPanel{
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+.addCart{
+    font-size: 14px;
+}
+.addCart_img{
+    width: 60px;
+    height: 90px;
+}
+.totalAmount{
+    font-size: 22px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.addProductList{
+    overflow: auto;
+    height: 270px;
+}
+.footer_section{
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+}
+.footer_section p{
+    margin-bottom: 2px;
+}
+.modal_img{
+    height: 360px;
+}
+.closeBtn{
+    width: 30px;
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+
